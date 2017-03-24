@@ -1,0 +1,251 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+input{
+	margin-right: 3px;
+	vertical-align: middle;
+}
+
+a img{
+	border-width: 0;
+	vertical-align: middle;
+}
+
+.global-nav{
+	height: 28px;
+	color: #d5d5d5;
+	background-color: #545652;
+	min-width: 950px;
+}
+
+.global-nav a{
+	color: #d5d5d5;
+}
+
+.global-nav a:hover{
+	color: #fff;
+	background-color: transparent;
+}
+
+.global-nav .nav-info{
+	float: right;
+	margin: 0 12px 0 0;
+	line-height: 28px;
+	font-size: 12px;
+}
+
+.global-nav .nav-info a {
+	padding: 0 12px;
+}
+
+.global-nav .nav-doubanapp{
+	float: right;
+	position: relative;
+	line-height: 28px;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+.global-nav .nav-items{
+	float: left;
+	line-height: 28px;
+	font-size: 12px;
+}
+
+.global-nav .nav-items ul li{
+	float: left;
+	padding: 0 12px;
+}
+
+.nav-movie{
+	background-color: #f0f3f5;
+	width: 100%;
+	min-width: 950px;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+
+.nav-movie .nav-wrap{
+	border-color: #e3ebec;
+	border-bottom: 1px solid #e5ebe4;
+}
+
+.nav-movie .nav-wrap .nav-primary{
+	width: 950px;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px 0 5px;
+}
+
+.nav-movie .nav-wrap .nav-logo{
+	height: 56px;
+	width: 145px;
+	margin: 0 13px 0 0;
+	float: left;
+	background: url(images/doubanlogo.png) no-repeat 0 12px;
+}
+
+.nav-movie .nav-wrap .nav-logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	line-height: 100em;
+}
+
+.nav-movie .nav-wrap .nav-search{
+	margin-left: 145px;
+	position: relative;
+	padding: 10px 0 15px 0;
+}
+
+.nav-movie .nav-wrap .nav-search .inp{
+	float: left;
+	width: 470px;
+	height: 34px;
+	text-align: center;
+	cursor: text;
+	background: url(images/search.png) no-repeat 0 0;
+}
+
+.nav-movie .nav-wrap .nav-search .inp input{
+	background: #fff;
+	width: 96%;
+	margin: 0;
+	text-align: left;
+	height: 30px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+}
+
+.nav-movie .nav-wrap .nav-search .inp-btn{
+	position: relative;
+	left: -1px;
+	width: 37px;
+	height: 34px;
+	overflow: hidden;
+}
+
+.nav-movie .nav-wrap .nav-search .inp-btn input{
+	width: 100%;
+	height: 100%;
+	font-size: 0;
+	padding: 35px 0 0 0;
+	overflow: hidden;
+	background: url(images/search.png) no-repeat 0 -40px;
+	color: transparent;
+	cursor: pointer;
+	-webkit-appearance: none;
+	border: none;
+}
+
+.nav-movie .nav-wrap .nav-search a{
+	position: absolute;
+	top: 0;
+	right: 50px;
+	background: transparent !important;
+}
+
+.nav-movie .nav-wrap .nav-search a img{
+	height: 90px;
+	margin-top: 2px;
+}
+
+.nav-movie .nav-secondary{
+	width: 950px;
+	margin: 0 auto;
+	padding-bottom: 0;
+	overflow: hidden;
+	font-size: 13px;
+	line-height: 21px;
+}
+
+.nav-secondary ul{
+	margin: 9px 0;
+}
+
+.nav-secondary ul li{
+	margin-right: 30px;
+	display: inline-block;
+}
+
+.nav-secondary ul li a{
+	color: #27a;
+}
+
+.nav-secondary ul li a:hover{
+	color: #fff;
+	background-color: #27a;
+}
+
+.content-wrapper{
+	width: 950px;
+	margin: 0 auto;
+}
+
+.content-wrapper .content{
+	min-height: 420px;
+}
+
+.content-wrapper .footer{
+	color: #999;
+	padding: 6px 0;
+	margin-top: 40px;
+	overflow: hidden;
+	border-top: 1px dashed #ddd;
+	font-size: 12px;
+}
+
+.footer .left{
+	float: left;
+}
+
+.footer .right{
+	float: right;
+}
+
+.right a{
+	color: #37a;
+}
+
+
+#items a{
+	float:left;
+	margin-left: 10px;
+	display:block;
+	width:34px;
+	height:34px;
+	border:1px solid #e1e2e3;
+	text-align: center;
+	line-height: 34px;
+	color:#38f;
+}
+
+#items a:hover{
+	background-color: #f2f8ff;
+	border:1px solid #38f;
+}
+
+#items .nowpage{
+	color:#333;
+	border:none;
+}
+
+#items .nowpage:hover{
+	background-color: #fff;
+	border:none;
+}
+
+#items .changepage{
+	width:80px;
+}
+
+#items .edgepage{
+	width:60px;
+}
