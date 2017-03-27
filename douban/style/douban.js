@@ -3,7 +3,7 @@ $('.inp-btn input').on('click', function(e) {
 		$('#info-wrapper').html('');
 		$('#items').html('');
 		$.ajax({
-			url: 'http://api.douban.com/v2/movie/search',
+			url: 'https://api.douban.com/v2/movie/search',
 			type: 'GET',
 			data: {
 				q: $('.inp input').val(),
